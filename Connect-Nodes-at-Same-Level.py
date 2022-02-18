@@ -57,7 +57,7 @@ class BinaryTree :
             node.left.next = node.right
             self.ConnectNodesAtSameLevel ( node.left )
         if node.right : 
-            self.ConnectNodesAtSameLevel ( node.left )
+            self.ConnectNodesAtSameLevel ( node.rightt )
         return
     
     def PrintNodesAtSameLevel ( self , node ) :
